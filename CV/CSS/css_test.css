@@ -1,0 +1,66 @@
+body {
+    background-color: #020202;
+    color: #ffffff;
+}
+
+section {
+    background-color: #9da2ab;
+}
+
+h1 {
+    color: springgreen;
+}
+
+.top {
+    background-color: aqua;
+}
+
+a {
+    text-decoration: none;
+    color: #b667f1;
+}
+
+a:visited {
+    color: magenta;
+}
+
+a:hover {
+    color: rgb(245, 143, 53);
+}
+
+nav {
+    background-color: #202021;
+    border-bottom: 5px solid magenta;
+    padding: 10px;
+}
+
+hr {
+    border-width: 5px;
+    border-color: rgb(75, 252, 40);
+    border-style: double;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+}
+
+.First {
+    border: 10px solid #edac15;
+    background-color: #894a07;
+    text-align: center;
+}
+
+.Second {
+    border: 20px solid #e53ceb;
+    background-color: #6e0973;
+    text-align: center;
+    margin-left: 120px;
+}
+
+.Third {
+    border: 10px solid #0cfe30;
+    background-color: #095103;
+    text-align: center;
+    margin-left: 260px;
+}
