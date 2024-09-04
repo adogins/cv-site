@@ -1,10 +1,10 @@
 body {
     margin: 0;
-    background-color: #dddddf;
+    background-color: #797a9e;
 }
 
 nav {
-    background-color: #d0c4df;
+    background-color: #bbbdf6;
     color: #000000;
     display: flex;
     flex-wrap: wrap;
@@ -21,14 +21,16 @@ a {
 }
 
 footer {
-    background-color: #c792df;
+    background-color: #72727e;
     padding-bottom: 50px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .splash {
     text-align: center;
-    background-color: #dcabdf;
+    background-color: #9893da;
 }
 
 h1 {
