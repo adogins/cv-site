@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #f7f7f7;
+    background-color: #ebe7e7;
 }
 
 nav {
@@ -11,6 +11,11 @@ nav {
     text-align: center;
     box-shadow: 0px 3px 2px #737272;
     padding-bottom: 5px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
 }
 
 nav a {
@@ -38,28 +43,43 @@ a {
 
 footer {
     background-color: #946fb0;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     display: flex;
     justify-content: center;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #f0bc38;
+}
+
+footer a {
+    color: #ffeec4;
+    text-decoration: none;
 }
 
 .splash {
-    text-align: center;
     background-color: #946fb0;
     box-shadow: 0px 5px 5px #525151;
 }
 
+.splash p {
+    margin-left: 20px;
+}
+
 h1 {
-  font-family: "Domine", serif;
-  font-optical-sizing: initial;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 45px;
-  color: #ffeec4;
+    font-family: "Playwrite TZ", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    color: #ffeec4;
+    text-align: center;
 }
 .splash img {
     border-radius: 10%;
-    border: 5px solid #4d236e;
+    border: 5px solid #f0bc38;
 }
 
 h2 {
@@ -156,4 +176,142 @@ hr {
     margin-left: 2%;
     margin-right: 2%;
     margin-bottom: 1%;
+}
+
+a {
+    color: #946fb0;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#f0bc38;
+}
+
+.experience {
+    font-size: 20px;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: max-content auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+dt {
+    grid-column-start: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+dd {
+    grid-column-end: 8;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.skills {
+    font-size: 20px;
+}
+
+#starter {
+    color: #946fb0;
+}
+
+.honors {
+    font-size: 20px;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: max-content auto;
+    align-items: center;
+    margin-left: 140px;
+    margin-right: 10px;
+}
+
+#info {
+    font-family: "Playwrite TZ", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    grid-column-start: 2;
+    color: #f0bc38;
+    text-align: center;
+}
+
+#headshot {
+    grid-column-start: 1;
+}
+
+#statement {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 100px;
+}
+
+.education {
+    font-size: 20px;
+}
+
+.education p {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.contact-intro {
+    text-align: center;
+}
+
+.contact-intro h1 {
+    color:#4d236e;
+    font-size: 90px;
+}
+
+.contact-intro p {
+    color:#946fb0;
+    font-family: "Playwrite TZ", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.one-col {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#submit-button {
+    width: 100px;
+    align-self: center;
+    font-family: "Heebo", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    background-color: #946fb0;
+    border: 2px solid #4d236e;
+    color:#ffeec4
+}
+
+label {
+    font-family: "Heebo", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+input {
+    box-shadow: 0px 5px 5px #525151;
+}
+
+textarea {
+    box-shadow: 0px 5px 5px #525151;
 }
