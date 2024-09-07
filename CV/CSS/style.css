@@ -33,15 +33,14 @@ nav a.active {
 }
 
 a {
-    color: #1b21ca;
+    color: #4d236e;
 }
 
 footer {
-    background-color: #72727e;
-    padding-bottom: 50px;
+    background-color: #946fb0;
+    padding-bottom: 20px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
 }
 
 .splash {
