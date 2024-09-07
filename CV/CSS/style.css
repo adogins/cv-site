@@ -1,19 +1,35 @@
 body {
     margin: 0;
-    background-color: #797a9e;
+    background-color: #f7f7f7;
 }
 
 nav {
-    background-color: #bbbdf6;
+    background-color: #4d236e;
     color: #000000;
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    box-shadow: 0px 3px 2px #737272;
+    padding-bottom: 5px;
 }
 
-#name {
-    padding-right: 10px;
-    padding-left: 50px;
+nav a {
+    float: left;
+    color: #ffeec4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background-color: #946fb0;
+    color: #000000;
+}
+
+nav a.active {
+    background-color: #ffeec4;
+    color: #4d236e;
 }
 
 a {
@@ -30,9 +46,74 @@ footer {
 
 .splash {
     text-align: center;
-    background-color: #9893da;
+    background-color: #946fb0;
+    box-shadow: #616162;
 }
 
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Domine", serif;
+  font-optical-sizing: initial;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 45px;
+  color: #ffeec4;
+}
+.splash img {
+    border-radius: 10%;
+    border: 5px solid #4d236e;
+}
+
+h2 {
+        font-family: "Jost", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 40px;
+        color:#4d236e;
+        margin: 10px 10px 10px 10px;
+}
+
+p {
+    font-family: "Heebo", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+dl {
+    font-family: "Heebo", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+dt {
+    font-family: "Heebo", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+ol {
+    font-family: "Heebo", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+li {
+    font-family: "Heebo", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "Jost", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 20px;
+        color: #946fb0;
+        margin: 10px 10px 10px 10px;
 }

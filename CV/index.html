@@ -5,20 +5,23 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Heebo:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./CSS/style.css" >
         <title>Alexis Dogins</title>
     </head>
 
     <body>
         <nav>
-            <p id="name">Alexis Dogins</p>
-            <p id="contact"><a href="./contact.html">Contact Alexis</a></p>
+            <p id="name"><a class="active" href="index.html">Alexis Dogins</a></p>
+            <p id="contact"><a href="contact.html">Contact Alexis</a></p>
         </nav>
 
         <section class="splash">
             <h1>Alexis Dogins</h1>
             <img src="./images/Headshot.jpg" alt="headshot photo" width="200px" >
-            <p>Lawrenceville, GA &#x25CF; 770-608-3513 &#x25CF; amdogins@gmail.com</p>
+            <p id="info">Lawrenceville, GA &#x25CF; 770-608-3513 &#x25CF; amdogins@gmail.com</p>
             <p>A college student seeking to obtain skills and knowledge which will enhance my ability to apply what I learn as I embark on my career endeavors in computer science. I look forward to expanding my skill set as well as contributing my technical skills along with my collaborative and communication skills. I'm interested in software engineering and web developemnt.</p>
         </section>
 
@@ -63,26 +66,28 @@
 
         <section>
             <h2>Projects</h2>
-            <h3>DevDogs Website</h3>
-                <ul>
-                    <li>Contribute to the website using HTML, CSS, JavaScript, React, and Next,js.</li>
-                    <li>Correct issues brought up by the administrators and clean up inconsistencies in the code.</li>
-                    <li>Create new pages or sections in the specified time, usually comleting tasks ahead of schedule.</li>
-                    <li>Collaborate with other contributors of the website to ensure proper functionality of the website.</li>
-                </ul>
-            <h3>Save Our World</h3>
-                <ul>
-                    <li>Utilized Unity to build a VR game environment.</li>
-                    <li>Learned C# as a new programming language to implement actions to game objects.</li>
-                    <li>Practiced collaboration and communication with group members while assigning tasks to be completed.</li>
-                    <li>Competed in a hackathon resulting in flexibility in planning as well as moving deadlines.</li>
-                </ul>
-            <h3>Airport API App</h3>
-                <ul>
-                    <li>Implemented the app using JavaFX as the UI.</li>
-                    <li>Utilized RESTful APIs in the format of JSON to request data.</li>
-                    <li>Incorporated Java to build the front-end and backend for the app.</li>
-                </ul>
+            <div class="project-grid">
+                <h3>DevDogs Website</h3>
+                    <ul>
+                        <li>Contribute to the website using HTML, CSS, JavaScript, React, and Next,js.</li>
+                        <li>Correct issues brought up by the administrators and clean up inconsistencies in the code.</li>
+                        <li>Create new pages or sections in the specified time, usually comleting tasks ahead of schedule.</li>
+                        <li>Collaborate with other contributors of the website to ensure proper functionality of the website.</li>
+                    </ul>
+                <h3>Save Our World</h3>
+                    <ul>
+                        <li>Utilized Unity to build a VR game environment.</li>
+                        <li>Learned C# as a new programming language to implement actions to game objects.</li>
+                        <li>Practiced collaboration and communication with group members while assigning tasks to be completed.</li>
+                        <li>Competed in a hackathon resulting in flexibility in planning as well as moving deadlines.</li>
+                    </ul>
+                <h3>Airport API App</h3>
+                    <ul>
+                        <li>Implemented the app using JavaFX as the UI.</li>
+                        <li>Utilized RESTful APIs in the format of JSON to request data.</li>
+                        <li>Incorporated Java to build the front-end and backend for the app.</li>
+                    </ul>
+            </div>
         </section>
 
         <footer>
