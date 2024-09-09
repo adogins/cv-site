@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #ebe7e7;
+    background-color: #f9f6ee;
 }
 
 nav {
@@ -62,6 +62,11 @@ footer a {
 .splash {
     background-color: #946fb0;
     box-shadow: 0px 5px 5px #525151;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .splash p {
@@ -145,7 +150,6 @@ hr {
 }
 
 .card {
-    /* Add shadows */
     box-shadow: 0 4px 8px 0 #4d236e;
     transition: 0.3s;
     border-radius: 5px;
@@ -188,6 +192,12 @@ a:hover {
 
 .experience {
     font-size: 20px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #ede1f7;
 }
 
 dl {
@@ -211,6 +221,12 @@ dd {
 
 .skills {
     font-size: 20px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #ede1f7;
 }
 
 #starter {
@@ -219,6 +235,12 @@ dd {
 
 .honors {
     font-size: 20px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #ede1f7;
 }
 
 .intro {
@@ -254,6 +276,12 @@ dd {
 
 .education {
     font-size: 20px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #ede1f7;
 }
 
 .education p {
